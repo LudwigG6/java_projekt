@@ -1,10 +1,12 @@
+package lektion1;
+
 import java.util.Scanner;
 
 public class veckodag {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Skriv en veckodag 1-7: ");
+        System.out.println("Skriv en veckodag (1-7): ");
 
         int day = scan.nextInt();
         String name = switch (day) {
