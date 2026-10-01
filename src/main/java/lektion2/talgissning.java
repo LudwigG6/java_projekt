@@ -7,7 +7,6 @@ public class talgissning {
         int attempts = 0;
 
         java.util.Scanner scanner = new java.util.Scanner(System.in);
-        System.out.println(secretNumber);
         System.out.println("Gissa ett tal mellan 1 och 100: ");
         while (guess != secretNumber) {
             guess = scanner.nextInt();
